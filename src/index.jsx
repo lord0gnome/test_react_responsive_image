@@ -19,11 +19,11 @@ ReactDOM.render((
   />
   <ResponsiveImageSize
     minWidth={500}
-    path={compressedBite}
+    path={compressedNoBite}
   />
     <ResponsiveImageSize
     minWidth={800}
-    path={compressedNoBite}
+    path={compressedBite}
   />
 </ResponsiveImage>
 ), document.getElementById('root'));
